@@ -1,0 +1,21 @@
+.navbar-nav {
+  color: white;
+}
+
+.background {
+  background: url('https://images.squarespace-cdn.com/content/v1/5ee94b6da7910d1bee2546fd/1613510144490-NY4SL26I5BJ6V3LGGZJE/IMG_3490.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  height: calc(100vh - 200px); /* Adjust the height as needed to accommodate the footer */
+}
+
+.overlay {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Stack text vertically */
+}
+
+.overlay p {
+  font-size: 2rem; /* Make the font size a bit smaller than before */
+  margin: 8px 0; /* Reduce the vertical spacing between lines */
+}
